@@ -1,5 +1,5 @@
 {
-  "name": "nx-vue3-vite",
+  "name": "nx-vue3",
   "version": "0.0.1",
   "main": "src/index.js",
   "generators": "./generators.json",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samatechtw/nx-vue3-vite.git"
+    "url": "git+https://github.com/samatechtw/nx-vue3.git"
   },
   "keywords": [
     "nx",

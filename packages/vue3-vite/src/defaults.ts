@@ -16,7 +16,7 @@ export const eslintVersion = '^8.8.0';
 export const vuePluginVersion = '^2.1.0';
 // TODO -- add or remove once it's out of alpha or vite-jest is used
 // Note -- babel stuff shouldn't be needed with vite-jest
-// https://github.com/samatechtw/nx-vue3-vite/issues/14
+// https://github.com/samatechtw/nx-vue3/issues/14
 // export const vue3JestVersion = '^27.0.0-alpha.2';
 export const babelJestVersion = '^27.3.1';
 export const babelCommonjsVersion = '^7.15.4';

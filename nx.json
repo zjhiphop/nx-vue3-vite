@@ -1,5 +1,5 @@
 {
-  "npmScope": "nx-vue3-vite",
+  "npmScope": "nx-vue3",
   "affected": {
     "defaultBase": "master"
   },

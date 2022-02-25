@@ -102,16 +102,16 @@ export default async function (host: Tree, options: Vue3ViteGeneratorSchema) {
     sourceRoot: joinPathFragments(projectRoot, 'src'),
     targets: {
       build: {
-        executor: 'nx-vue3-vite:build-app',
+        executor: 'nx-vue3:build-app',
         options: {
           dist: joinPathFragments('dist', projectRoot),
         },
       },
       serve: {
-        executor: 'nx-vue3-vite:dev-server',
+        executor: 'nx-vue3:dev-server',
       },
       e2e: {
-        executor: 'nx-vue3-vite:cypress',
+        executor: 'nx-vue3:cypress',
         options: {
           cypressConfig: joinPathFragments(projectRoot, 'cypress.json'),
           testingType: 'component',

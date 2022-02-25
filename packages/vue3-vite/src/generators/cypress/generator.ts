@@ -75,7 +75,7 @@ export default async function (host: Tree, options: CypressGeneratorSchema) {
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const e2eTarget: any = {
-    executor: 'nx-vue3-vite:cypress',
+    executor: 'nx-vue3:cypress',
     options: {
       cypressConfig: joinPathFragments(projectRoot, 'cypress.json'),
     },

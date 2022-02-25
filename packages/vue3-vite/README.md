@@ -1,10 +1,10 @@
-<h2 align='center'>nx-vue3-vite</h2>
+<h2 align='center'>nx-vue3</h2>
 
 <p align='center'>NX Plugin for generating opinionated Vue3+Vite+PostCSS applications</p>
 
 <p align='center'>
-<a href='https://www.npmjs.com/package/nx-vue3-vite'>
-  <img src='https://img.shields.io/npm/v/nx-vue3-vite?color=222&style=flat-square'>
+<a href='https://www.npmjs.com/package/nx-vue3'>
+  <img src='https://img.shields.io/npm/v/nx-vue3?color=222&style=flat-square'>
 </a>
 </p>
 
@@ -58,13 +58,13 @@ One compromise made is keeping `index.html` in the root folder. Vite strongly su
 **npm**
 
 ```bash
-npm install nx-vue3-vite --save-dev
+npm install nx-vue3 --save-dev
 ```
 
 ### Generate App
 
 ```bash
-nx g nx-vue3-vite:app <app-name>
+nx g nx-vue3:app <app-name>
 ```
 
 ### Serve
@@ -88,7 +88,7 @@ This plugin adds a few recommended extensions to VSCode. To install them, open V
 ### Application
 
 ```
-nx g nx-vue3-vite:app <app-name> [options]
+nx g nx-vue3:app <app-name> [options]
 ```
 
 | Arguments | Description                   |
@@ -104,10 +104,10 @@ nx g nx-vue3-vite:app <app-name> [options]
 ### Component
 
 ```
-nx g nx-vue3-vite:component <name> [options]
+nx g nx-vue3:component <name> [options]
 
 # Alias
-nx g nx-vue3-vite:c <name> [options]
+nx g nx-vue3:c <name> [options]
 ```
 
 | Arguments | Description                |
@@ -126,7 +126,7 @@ nx g nx-vue3-vite:c <name> [options]
 ### Library
 
 ```
-nx g nx-vue3-vite:library <lib-name> [options]
+nx g nx-vue3:library <lib-name> [options]
 ```
 
 | Arguments | Description                       |
@@ -141,7 +141,7 @@ nx g nx-vue3-vite:library <lib-name> [options]
 ### Vitepress Docs
 
 ```
-nx g nx-vue3-vite:docs <app-name> [options]
+nx g nx-vue3:docs <app-name> [options]
 ```
 
 | Arguments | Description                        |
@@ -156,10 +156,10 @@ nx g nx-vue3-vite:docs <app-name> [options]
 
 ### Cypress
 
-Generate a Cypress e2e app targeting an application generated with `nx-vue3-vite:app`
+Generate a Cypress e2e app targeting an application generated with `nx-vue3:app`
 
 ```
-nx g nx-vue3-vite:cypress <app-name> --project <target-project> [options]
+nx g nx-vue3:cypress <app-name> --project <target-project> [options]
 ```
 
 | Arguments | Description                                                                                                                |

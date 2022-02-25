@@ -98,13 +98,13 @@ export default async function (host: Tree, options: LibraryGeneratorSchema) {
     sourceRoot: joinPathFragments(libraryRoot, 'src'),
     targets: {
       build: {
-        executor: 'nx-vue3-vite:build-app',
+        executor: 'nx-vue3:build-app',
         options: {
           dist: joinPathFragments('dist', libraryRoot),
         },
       },
       e2e: {
-        executor: 'nx-vue3-vite:cypress',
+        executor: 'nx-vue3:cypress',
         options: {
           cypressConfig: joinPathFragments(libraryRoot, 'cypress.json'),
           testingType: 'component',

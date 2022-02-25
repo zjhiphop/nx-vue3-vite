@@ -102,13 +102,13 @@ export default async function (host: Tree, options: DocsGeneratorSchema) {
     sourceRoot: joinPathFragments(projectRoot, 'src'),
     targets: {
       build: {
-        executor: 'nx-vue3-vite:build-docs',
+        executor: 'nx-vue3:build-docs',
         options: {
           dist: joinPathFragments('dist', projectRoot),
         },
       },
       serve: {
-        executor: 'nx-vue3-vite:docs-dev-server',
+        executor: 'nx-vue3:docs-dev-server',
       },
       lint: {
         executor: '@nrwl/linter:eslint',

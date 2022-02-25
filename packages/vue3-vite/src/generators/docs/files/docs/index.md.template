@@ -5,7 +5,7 @@ actionText: Get Started
 actionLink: /guide/
 
 altActionText: Learn More
-altActionLink: https://github.com/samatechtw/nx-vue3-vite
+altActionLink: https://github.com/samatechtw/nx-vue3
 
 features:
   - title: 🚀 Developer docs

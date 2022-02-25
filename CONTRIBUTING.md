@@ -1,4 +1,4 @@
-# nx-vue3-vite Contributing Guide
+# nx-vue3 Contributing Guide
 
 Hi! We're glad that you're interested in contributing!. Before submitting a pull request or issue, please make sure to take a moment and read through the following guide.
 

@@ -1,10 +1,10 @@
-<h2 align='center'>nx-vue3-vite</h2>
+<h2 align='center'>nx-vue3</h2>
 
 <p align='center'>NX Plugin for generating opinionated Vue3+Vite+PostCSS applications</p>
 
 <p align='center'>
-<a href='https://www.npmjs.com/package/nx-vue3-vite'>
-  <img src='https://img.shields.io/npm/v/nx-vue3-vite?color=222&style=flat-square'>
+<a href='https://www.npmjs.com/package/nx-vue3'>
+  <img src='https://img.shields.io/npm/v/nx-vue3?color=222&style=flat-square'>
 </a>
 </p>
 
