@@ -49,7 +49,7 @@ export const ProjectDependencies = {
 export const ProjectDevDependencies = {
   vite: viteVersion,
   eslint: eslintVersion,
-  picolors: '1.0.0',
+  picocolors: '1.0.0',
   'class-transformer': '^0.5.1',
   '@intlify/eslint-plugin-vue-i18n': '^1.2.0',
   'eslint-plugin-import': '^2.25.4',
