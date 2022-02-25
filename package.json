@@ -6,6 +6,7 @@
   "scripts": {
     "nx": "nx",
     "build": "nx build vue3-vite",
+    "release": "node tools/scripts/release.js",
     "test": "nx test vue3-vite",
     "lint": "nx workspace-lint && nx lint vue3-vite",
     "e2e": "nx e2e vue3-vite",
