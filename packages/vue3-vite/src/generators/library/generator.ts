@@ -103,6 +103,37 @@ export default async function (host: Tree, options: LibraryGeneratorSchema) {
           dist: joinPathFragments('dist', libraryRoot),
         },
       },
+      storybook: {
+        executor: '@nrwl/storybook:storybook',
+        options: {
+          uiFramework: '@storybook/vue',
+          port: 4400,
+          config: {
+            configFolder: '.storybook',
+          },
+        },
+        configurations: {
+          ci: {
+            quiet: true,
+          },
+        },
+      },
+      'build-storybook': {
+        executor: '@nrwl/storybook:build',
+        outputs: ['{options.outputPath}'],
+        options: {
+          uiFramework: '@storybook/vue',
+          outputPath: 'dist/storybook',
+          config: {
+            configFolder: '.storybook',
+          },
+        },
+        configurations: {
+          ci: {
+            quiet: true,
+          },
+        },
+      },
       e2e: {
         executor: 'nx-vue3:cypress',
         options: {

@@ -1,6 +1,6 @@
 {
   "name": "nx-vue3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.js",
   "generators": "./generators.json",
   "executors": "./executors.json",
@@ -9,7 +9,15 @@
     "@vitejs/plugin-vue": "^2.2.2",
     "@nrwl/devkit": "^13.8.3",
     "cypress": "^9.5.0",
-    "@cypress/vite-dev-server": "^2.2.2"
+    "@cypress/vite-dev-server": "^2.2.2",
+    "@storybook/addon-a11y": "^6.5.13",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/addon-storysource": "^6.5.13",
+    "@storybook/addons": "^6.5.13",
+    "@storybook/theming": "^6.5.13",
+    "@storybook/vue": "^6.5.13"
   },
   "repository": {
     "type": "git",

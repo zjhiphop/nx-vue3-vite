@@ -19,6 +19,8 @@ describe('vue3-vite library generator', () => {
 
     expect(Object.keys(config.targets)).toEqual([
       'build',
+      'storybook',
+      'build-storybook',
       'e2e',
       'lint',
       'test',

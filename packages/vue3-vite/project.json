@@ -18,12 +18,12 @@
       }
     },
     "build": {
-      "executor": "@nrwl/node:package",
+      "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/vue3-vite",
         "tsConfig": "packages/vue3-vite/tsconfig.lib.json",
-        "packageJson": "packages/vue3-vite/package.json",
+        "generatePackageJson": true,
         "main": "packages/vue3-vite/src/index.ts",
         "assets": [
           "packages/vue3-vite/*.md",
