@@ -1,0 +1,24 @@
+/* 👇 The title prop is optional.
+* See https://storybook.js.org/docs/vue/configure/overview#configure-story-loading
+* to learn how to generate automatic titles
+*/
+
+import <%= propertyName %> from './<%= propertyName %>.vue';
+export default {
+  title: '<%= propertyName %>',
+  component: <%= propertyName %>,
+};
+
+const Template = (args) => ({
+  components: { <%= propertyName %> },
+  setup() {
+    return { args };
+  },
+  template: '<<%= propertyName %> v-bind="args"/>',
+});
+
+export const <%= propertyName %>Story = Template.bind({});
+
+<%= propertyName %>Story.args = {
+
+};
