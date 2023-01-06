@@ -72,10 +72,6 @@ if (newVersion === prevVersion)
 if (!/\d+\.\d+\.\d+/.test(newVersion))
   errorExit('New version format must be x.x.x');
 
-console.log('...building');
-
-runOrExit('npm', ['run', 'build'], 'Build failed');
-
 console.log('...updating version');
 
 try {
@@ -107,6 +103,10 @@ runOrExit(
   ['tag', '-a', `v${newVersion}`, '-m', `Version ${newVersion}`],
   'Release tag failed'
 );
+
+console.log('...building');
+
+runOrExit('npm', ['run', 'build'], 'Build failed');
 
 console.log('...pushing commit');
 
