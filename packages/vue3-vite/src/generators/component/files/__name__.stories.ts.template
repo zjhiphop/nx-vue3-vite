@@ -3,22 +3,22 @@
 * to learn how to generate automatic titles
 */
 
-import <%= propertyName %> from './<%= propertyName %>.vue';
+import <%= name %> from './<%= name %>.vue';
 export default {
-  title: '<%= propertyName %>',
-  component: <%= propertyName %>,
+  title: '<%= name %>',
+  component: <%= name %>,
 };
 
 const Template = (args) => ({
-  components: { <%= propertyName %> },
+  components: { <%= name %> },
   setup() {
     return { args };
   },
-  template: '<<%= propertyName %> v-bind="args"/>',
+  template: '<<%= name %> v-bind="args"/>',
 });
 
-export const <%= propertyName %>Story = Template.bind({});
+export const <%= name %>Story = Template.bind({});
 
-<%= propertyName %>Story.args = {
+<%= name %>Story.args = {
 
 };

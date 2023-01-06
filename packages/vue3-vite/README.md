@@ -10,11 +10,14 @@
 
 ## Table of contents
 
+- [Table of contents](#table-of-contents)
+- [Features](#features)
 - [Philosophy](#philosophy)
 - [Plugin Usage](#plugin-usage)
   - [Install](#install)
   - [Generate App](#generate-app)
   - [Serve](#serve)
+  - [Recommended VSCode extensions](#recommended-vscode-extensions)
 - [Vue3 Generators](#vue3-generators)
   - [Application](#application)
   - [Component](#component)
@@ -28,10 +31,9 @@
   - [Docs Build](#docs-build)
   - [Lint](#lint)
   - [Unit Testing](#unit-testing)
-  - [Cypress E2E](#cypress-e2e)
+  - [E2E Testing](#e2e-testing)
 - [Workarounds](#workarounds)
   - [dep-graph hack](#dep-graph-hack)
-  - [vue3-jest](#vue3-jest)
   - [vite-jest](#vite-jest)
 
 ## Features
